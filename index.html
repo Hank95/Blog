@@ -2,4 +2,316 @@
 title: Home
 ---
 
-<h1>{{"Hello World!" | downcase }}</h1>
+<link rel="stylesheet" href="./assets/css/mainPageSyle.css" />
+<body>
+  <div id="landing">
+    <img id="logo" src="./assets/images/hp_logo2.svg" alt="HP Logo" />
+    <div id="menu">
+      <div id="cont" class="container hidden">
+        <div class="grid-item">
+          <div class="grid-item-sub arr">
+            <a id="arrow" href=""
+              ><svg width="50" height="30" fill="none" viewBox="0 0 24 24">
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M13.75 6.75L19.25 12L13.75 17.25"
+                ></path>
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M19 12H4.75"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-sub link">
+            <a href="#has-been">About</a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-sub link">
+            <a href="#has-made">Portfolio</a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-sub link">
+            <a href="">CV/Resume</a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-sub link">
+            <a href="https://www.instagram.com/henry_pendleton/">Social</a>
+          </div>
+        </div>
+      </div>
+      <div id="burger-menu" class="burger">
+        <div class="grid-item-sub">
+          <a href=""
+            ><svg
+              id="burger-menu"
+              width="50"
+              height="50"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M4.75 5.75H19.25"
+              />
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M4.75 18.25H19.25"
+              />
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M4.75 12H19.25"
+              /></svg
+          ></a>
+        </div>
+      </div>
+      <div class="night-mode">
+        <div class="grid-item-sub">
+          <a href=""
+            ><svg
+              class="moon"
+              width="50"
+              height="50"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M18.25 15.7499C17.2352 16.2904 16.23 16.25 15 16.25C10.9959 16.25 7.75 13.0041 7.75 9.00001C7.75 7.77001 7.70951 6.76474 8.25 5.74994C5.96125 6.96891 4.75 9.2259 4.75 12C4.75 16.004 7.99594 19.25 12 19.25C14.7741 19.25 17.031 18.0387 18.25 15.7499Z"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M16 4.75C16 6.95914 14.9591 9 12.75 9C14.9591 9 16 11.0409 16 13.25C16 11.0409 17.0409 9 19.25 9C17.0409 9 16 6.95914 16 4.75Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="day-mode hidden">
+        <div class="grid-item-sub">
+          <a href=""
+            ><svg
+              class="sun"
+              width="50"
+              height="50"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="3.25"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              ></circle>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M12 2.75V4.25"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M17.25 6.75L16.0659 7.93416"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M21.25 12.0001L19.75 12.0001"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M17.25 17.2501L16.0659 16.066"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M12 19.75V21.25"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M7.9341 16.0659L6.74996 17.25"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M4.25 12.0001L2.75 12.0001"
+              ></path>
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M7.93405 7.93423L6.74991 6.75003"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <img
+      id="background"
+      src="./assets/images/ocean-texture.jpeg"
+      alt="Ocean texture background"
+    />
+    <div id="currently">
+      <h1>
+        Henry <br />
+        Pendleton
+      </h1>
+      <h2>is currently ...</h2>
+      <h3>
+        Googling shit and trying to make cool
+        <a href="https://github.com/Hank95"> <u>things</u> </a>.
+      </h3>
+      <h3>(Changing paths)</h3>
+    </div>
+    <div id="chevron">
+      <svg width="50" height="50" fill="none" viewBox="0 0 24 24">
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1.5"
+          d="M15.25 10.75L12 14.25L8.75 10.75"
+        ></path>
+      </svg>
+    </div>
+  </div>
+  <div id="content">
+    <div id="has-been">
+      <h2>Has been ...</h2>
+    </div>
+    <div class="child">
+      <h3>Selling boats</h3>
+      <ul>
+        <li>Working at a company called Cape Yachts</li>
+        <li>Sailboats and powerboats!</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Buiding boats</h3>
+      <ul>
+        <li>Waterline Systems</li>
+        <li>We built sailboats!</li>
+      </ul>
+    </div>
+    <div class="child">
+      <h3>Going to School</h3>
+      <ul>
+        <li>St. Lawrence University</li>
+        <li>Graduated with a double major in Business and Economics</li>
+      </ul>
+    </div>
+  </div>
+  <div id="has-made">
+    <h2>Has made ...</h2>
+  </div>
+
+  <div id="projects">
+    <img src="https://source.unsplash.com/1600x900/?tech" alt="random image" />
+    <div class="project">
+      <h3>This Progect is TDB</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula
+        blandit sem, viverra iaculis ex tincidunt eu. Vestibulum ornare, orci
+        eget volutpat accumsan, est urna congue massa, a maximus sem nisi et
+        eros. Aliquam aliquam non risus sed iaculis. Duis id felis ex. Nam id
+        elementum justo.
+      </p>
+    </div>
+    <div class="project">
+      <h3>So is this one</h3>
+      <p>
+        Vivamus tincidunt venenatis porttitor. Duis scelerisque mauris finibus,
+        aliquam ante non, dictum lacus. Curabitur fringilla euismod dolor, id
+        bibendum ligula lobortis sit amet. Phasellus gravida, nibh ac auctor
+        porta, massa eros bibendum turpis, sed tristique ligula nunc sit amet
+        magna.
+      </p>
+    </div>
+    <img
+      src="https://source.unsplash.com/1600x900/?technology"
+      alt="random image"
+    />
+    <img
+      src="https://source.unsplash.com/1600x900/?computer"
+      alt="random image"
+    />
+    <div class="project">
+      <h3>This one, as well</h3>
+      <p>
+        Phasellus tristique lacinia nisl, a sodales enim. Proin pretium tempus
+        libero a auctor. Fusce eu blandit leo. Sed quis feugiat lectus, finibus
+        venenatis quam.
+      </p>
+    </div>
+  </div>
+  <div id="contact-me">
+    <form action="submit" id="contact-me--form">
+      <!-- <label for="fname">Name:</label> <br> -->
+      <input type="text" name="fname" id="fname" placeholder="Name" /> <br />
+      <!-- <label for="femail">Email:</label> <br> -->
+      <input type="email" name="femail" id="femail" placeholder="Email" />
+      <br />
+
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Your Message"
+      ></textarea>
+      <input type="submit" value="Send" id="submit" /> <br />
+    </form>
+  </div>
+
+  <footer>
+    <img id="foot-logo" src="./assets/images/hp_logo2.svg" alt="HP Logo" />
+  </footer>
+  <script src="./assets/js/script.js" defer></script>
+</body>
